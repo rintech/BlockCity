@@ -9,7 +9,7 @@ namespace org.denyakicreate.blockcity
     public class Main : MonoBehaviour
     {
         public const string ver = "0.001alpha(classic)";
-        public const string welcomemsg = "Block Cityの世界へようこそ。詳しい情報は公式サイトをご覧下さい";
+        public const string welcomemsg = "BlockCityの世界にようこそ。詳しくは公式サイトをご覧ください。";
 
         public static Main main;
 
@@ -246,7 +246,7 @@ namespace org.denyakicreate.blockcity
                     else if (_1menu[2].clicked)
                     {
                         playSound(ac_click);
-                        Application.OpenURL("https://denyakicreate.github.io/blockcity/");
+                        Application.OpenURL("http://blockcity.rintech.org/");
                     }
                     else if (_1menu[3].initems[0].clicked)
                     {
