@@ -467,7 +467,7 @@ namespace org.denyakicreate.blockcity
                     string text = "終了しています...";
                     if (Time.smoothDeltaTime >= 30 * 60)
                     {
-                        text = "お疲れ様でした。";
+                        text = "ありがとうございました。";
                     }
                     GUIManager.menu_center(new MenuItem[] { new MenuItem(text) });
                     if (lastmsgtime <= 0)
