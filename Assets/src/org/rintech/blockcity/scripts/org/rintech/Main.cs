@@ -128,7 +128,7 @@ namespace org.rintech.blockcity
             else if (Input.GetKeyDown(KeyCode.F2))
             {
                 Directory.CreateDirectory(ssdirpath);
-                Application.CaptureScreenshot(Path.Combine(ssdirpath, DateTime.Now.Ticks.ToString()) + ".png");
+                ScreenCapture.CaptureScreenshot(Path.Combine(ssdirpath, DateTime.Now.Ticks.ToString()) + ".png");
             }
             if (Input.GetKeyDown(KeyCode.Escape))
             {
